@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   border-color:#eee;
+  padding: 0 25px;
 }
 
 .main-nav ul li {
@@ -48,11 +49,19 @@
   color: rgb(170, 170, 170);
 }
 
-.nav-sections-section {
+.main-nav-right-content {
   display: flex;
+  padding: 0 20px;
 }
 
-.nav-sections-section img {
+.main-nav-right-content img {
   max-width: 110px;
   max-height: 20px;
+}
+
+.main-nav-right-content i,
+.main-nav-right-content img,
+.main-nav-right-content p,
+.main-nav-right-content button {
+  margin-right: 20px;
 }
