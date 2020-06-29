@@ -1,9 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-size: 10px;
-  font-family: 'Arial', helvetica, sans-serif;
+  font-family: "Arial", helvetica, sans-serif;
 }
 
 .top-nav {
@@ -31,22 +31,23 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  border-color:#eee;
-  padding: 0 25px;
+  border-color: #eee;
+  padding: 15px 25px;
 }
 
-.main-nav ul li {
+.main-nav-links li {
   display: inline;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-right: 24px;
+  margin-right: 15px;
 }
 
-.main-nav ul li a {
+.main-nav-links li a {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
   text-decoration: none;
   color: rgb(170, 170, 170);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 .main-nav-right-content {
