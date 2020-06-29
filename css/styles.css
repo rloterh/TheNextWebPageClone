@@ -167,11 +167,29 @@
   grid-area: right-image-bottom;
 }
 
+.latest-news-title {
+  max-width: 64%;
+  margin: auto;
+  padding: 70px 0 28px;
+} 
+
+.latest-news-title a{
+   font-size: 2.8rem;
+  line-height: 3.1rem;
+  font-weight: 700;
+  color: #f42;
+  text-decoration: none;
+ }
+
+.latest-news-title a:hover{
+  color: #000;
+ }
+
 .latest-news {
   max-width: 64%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 25px;
+  grid-gap: 20px;
   margin: auto;
 }
 
@@ -190,7 +208,7 @@
 
 .latest-news-item h4 {
   vertical-align: baseline;
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .latest-news-item h4 > a {
