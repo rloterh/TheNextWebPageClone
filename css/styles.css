@@ -155,10 +155,71 @@
   background-position: 50%;
 }
 
+.cover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(248, 28, 76, 0.5),
+    rgba(0, 0, 0, 0.4)
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+}
+
+.head-content {
+  font-size: 5.5rem;
+}
+
+.cover-logo {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  height: 10%;
+}
+
+.cover ul {
+  list-style: none;
+}
+
+.cover ul li,
+.cover ul li i,
+.cover ul li time {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cover ul li {
+  display: inline-block;
+}
+
+.cover ul li .share {
+  font-weight: 900;
+}
+
+.cover ul li i {
+  margin-left: 5px;
+}
+
 .hero-right-img-1 {
   grid-area: right-image-top;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/cc_series_empty-1200x628.jpg");
   background-size: cover;
+}
+
+.hero-right-img-1,
+.hero-right-img-2 {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.hero-right-img-1 a,
+.hero-right-img-2 a {
+  font-size: 2.8rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 .hero-right-img-2 {
@@ -195,32 +256,32 @@
   color: rgb(46, 46, 46);
 }
 
-.latest-news {
+.latest {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin: auto;
 }
 
-.latest-news-item {
+.latest-item {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.latest-news-item img {
+.latest-item img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
-.latest-news-item h4 {
+.latest-item h4 {
   vertical-align: baseline;
   margin-right: 50px;
 }
 
-.latest-news-item h4 > a {
+.latest-item h4 > a {
   font-size: 1.6rem;
   line-height: 2rem;
   font-weight: 700;
@@ -228,15 +289,15 @@
   color: rgb(46, 46, 46);
 }
 
-.latest-news-item h4 > a:hover {
+.latest-item h4 > a:hover {
   color: #f8533a;
 }
 
-/* .latest-news-item h5 {
+/* .latest-item h5 {
   padding: 10px 0 50px;
 } */
 
-.latest-news-item h5 > a {
+.latest-item h5 > a {
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 400;
@@ -244,7 +305,7 @@
   color: #777;
 }
 
-.latest-news-item h5 > a:hover {
+.latest-item h5 > a:hover {
   color: #555;
 }
 
@@ -413,7 +474,8 @@
 .category-most-popular {
   height: 276px;
   background-repeat: no-repeat;
-  background-size: cover; background-color: rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: flex-end;
   padding: 0 14px 14px;
@@ -433,8 +495,8 @@
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-
-}.category-most-popular-bg h4 > a:hover {
+}
+.category-most-popular-bg h4 > a:hover {
   text-decoration: underline;
 }
 
@@ -454,15 +516,15 @@
 }
 
 .category-latest-top {
-  background-color:rgba(255, 68, 34, 0.06);
-  padding:12px;
+  background-color: rgba(255, 68, 34, 0.06);
+  padding: 12px;
 }
 
 .category-latest-top h5 {
   font-size: 1rem;
   line-height: 2rem;
   font-weight: 400;
-  color:#f54424;
+  color: #f54424;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
@@ -471,7 +533,7 @@
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: 700;
-  color:#f54424;
+  color: #f54424;
 }
 
 .more-popular-topics {
@@ -493,3 +555,68 @@
 
 .more-popular-topics li a:hover {
   color: #555;
+}
+
+footer {
+  text-align: center;
+  color: rgb(209, 209, 209);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #141414;
+  padding: 20px;
+  height: 160px;
+}
+
+.footer-top i {
+  background-color: rgb(63, 63, 63);
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 10px 13px;
+  border-radius: 100%;
+}
+
+.footer-top i:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: rgb(209, 209, 209);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.footer-links a:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom span {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer-bottom img {
+  height: 9px;
+  margin-right: 2px;
+}
+
+.footer-bottom b {
+  color: #f54424;
+}
