@@ -367,3 +367,129 @@
   font-size: 1.2rem;
   line-height: 2.2rem;
 }
+
+.article-categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.category-latest {
+  display: flex;
+}
+
+.most-popular-bg1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.most-popular-bg2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-laptop-case-that-turns-into-a-stand-368x276.png");
+}
+
+.most-popular-bg3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/timecrystals-368x276.jpg");
+}
+
+.most-popular-bg4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.most-popular-bg5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.most-popular-bg6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.most-popular-bg7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.most-popular-bg8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
+}
+
+.category-most-popular {
+  height: 276px;
+  background-repeat: no-repeat;
+  background-size: cover; background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 14px 14px;
+}
+
+.most-popular-subtitle {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.category-most-popular-bg h4 > a {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+
+}.category-most-popular-bg h4 > a:hover {
+  text-decoration: underline;
+}
+
+.most-popular-author,
+.most-popular-author a {
+  text-decoration: none;
+  color: #888;
+}
+
+.most-popular-author a:hover {
+  color: #ccc;
+}
+
+.category-latest img {
+  width: 96px;
+  height: 96px;
+}
+
+.category-latest-top {
+  background-color:rgba(255, 68, 34, 0.06);
+  padding:12px;
+}
+
+.category-latest-top h5 {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color:#f54424;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.category-latest-top h4 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color:#f54424;
+}
+
+.more-popular-topics {
+  margin-bottom: 35px;
+}
+
+.more-popular-topics li {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.more-popular-topics li a {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #888;
+  text-decoration: none;
+}
+
+.more-popular-topics li a:hover {
+  color: #555;
