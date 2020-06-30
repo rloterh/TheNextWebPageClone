@@ -620,3 +620,23 @@ footer {
 .footer-bottom b {
   color: #f54424;
 }
+
+@media only screen and (max-width:1020px) {
+  .latest {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .latest {
+    display: block;
+  }
+
+  .news-item-1 {
+    display: flex;
+  }
+
+  .latest-item img {
+    max-width: 75px;
+  }
+}
