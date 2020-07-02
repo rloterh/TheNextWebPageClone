@@ -23,9 +23,45 @@
   margin-right: 15px;
 }
 
+.footer-bottom span {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
 .main-nav-right-content i {
   font-size: 1.6rem;
   color: rgb(189, 189, 189);
+}
+
+.main-nav-right-content i,
+.main-nav-right-content img,
+.main-nav-right-content p {
+  margin-right: 20px;
+}
+
+.section-heading i {
+  font-size: 1.8rem;
+  line-height: 3.1rem;
+}
+
+.card-middle-section i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: rgb(46, 46, 46);
+}
+
+.more-popular-topics li {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.footer-top i {
+  background-color: rgb(63, 63, 63);
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 10px 13px;
+  border-radius: 100%;
 }
 
 .cover ul li,
@@ -33,6 +69,10 @@
 .cover ul li time {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.cover ul li {
+  display: inline-block;
 }
 
 .top-nav li:not(:last-of-type) {
@@ -68,8 +108,100 @@
   font-size: 1.3rem;
 }
 
+.hero-right-img-1 a,
+.hero-right-img-2 a {
+  font-size: 2.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-heading a {
+  font-size: 2.8rem;
+  line-height: 3.1rem;
+  font-weight: 700;
+  color: #f8533a;
+  text-decoration: none;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #f8533a;
+}
+
+.card-middle-section a {
+  text-decoration: none;
+  color: #777;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+
+.most-popular-author,
+.most-popular-author a {
+  text-decoration: none;
+  color: #888;
+}
+
+.footer-links a {
+  color: rgb(209, 209, 209);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.latest-item h4 > a {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+
+.latest-item h5 > a {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #777;
+}
+
+.category-most-popular-bg h4 > a {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.more-popular-topics li a {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #888;
+  text-decoration: none;
+}
+
 .main-nav-links a:hover {
   color: rgb(46, 46, 46);
+}
+
+.section-heading a:hover {
+  color: rgb(46, 46, 46);
+}
+
+.links a:hover {
+  color: rgb(46, 46, 46);
+}
+
+.most-popular-author a:hover {
+  color: #ccc;
+}
+
+.footer-links a:not(:last-of-type) {
+  margin-right: 1.8%;
 }
 
 .top-nav li a:hover {
@@ -85,7 +217,7 @@
 }
 
 .tnw-logo-cover {
-  background: linear-gradient(to bottom right, #c09, #f42 85%) #f42;
+  background: #f42 linear-gradient(to bottom right, #c09, #f42 85%);
   height: 48px;
   padding: 16px 20px;
   width: 106px;
@@ -121,10 +253,8 @@
   max-width: 110px;
 }
 
-.main-nav-right-content i,
-.main-nav-right-content img,
-.main-nav-right-content p {
-  margin-right: 20px;
+.cover ul li i {
+  margin-left: 5px;
 }
 
 .main-nav-right-content .search-icon i {
@@ -135,6 +265,12 @@
 .main-nav-right-content p strong {
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+
+.card-bottom-section span {
+  color: rgb(158, 158, 158);
+  font-size: 1.2rem;
+  line-height: 2.2rem;
 }
 
 .main-nav-right-content p span {
@@ -221,29 +357,14 @@
   list-style: none;
 }
 
-.cover ul li {
-  display: inline-block;
-}
-
 .cover ul li .share {
   font-weight: 900;
-}
-
-.cover ul li i {
-  margin-left: 5px;
 }
 
 .hero-right-img-1 {
   grid-area: right-image-top;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/cc_series_empty-1200x628.jpg");
   background-size: cover;
-}
-
-.hero-right-img-1 a,
-.hero-right-img-2 a {
-  font-size: 2.8rem;
-  color: #fff;
-  text-decoration: none;
 }
 
 .hero-right-img-1,
@@ -270,23 +391,6 @@
   margin-bottom: 20px;
 }
 
-.section-heading a {
-  font-size: 2.8rem;
-  line-height: 3.1rem;
-  font-weight: 700;
-  color: #f8533a;
-  text-decoration: none;
-}
-
-.section-heading i {
-  font-size: 1.8rem;
-  line-height: 3.1rem;
-}
-
-.section-heading a:hover {
-  color: rgb(46, 46, 46);
-}
-
 .latest {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -309,24 +413,8 @@
   margin-right: 50px;
 }
 
-.latest-item h4 > a {
-  font-size: 1.6rem;
-  line-height: 2rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: rgb(46, 46, 46);
-}
-
 .latest-item h4 > a:hover {
   color: #f8533a;
-}
-
-.latest-item h5 > a {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  font-weight: 400;
-  text-decoration: none;
-  color: #777;
 }
 
 .latest-item h5 > a:hover {
@@ -345,20 +433,9 @@
   align-items: center;
 }
 
-.links a {
-  text-decoration: none;
-  font-size: 1.8rem;
-  font-weight: 300;
-  color: #f8533a;
-}
-
 .links a.after-divider::after {
   content: "|";
   margin: 0 10px;
-}
-
-.links a:hover {
-  color: rgb(46, 46, 46);
 }
 
 .articles {
@@ -424,22 +501,6 @@
   border-bottom: 0.5px solid #f54424;
 }
 
-.card-middle-section a {
-  text-decoration: none;
-  color: #777;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.05rem;
-  font-weight: 300;
-}
-
-.card-middle-section i {
-  margin-right: 10px;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  color: rgb(46, 46, 46);
-}
-
 .card-bottom-section {
   padding: 15px 10px;
   background-color: #fffaf8;
@@ -449,12 +510,6 @@
   font-size: 1.4rem;
   line-height: 2.2rem;
   color: #777;
-}
-
-.card-bottom-section span {
-  color: rgb(158, 158, 158);
-  font-size: 1.2rem;
-  line-height: 2.2rem;
 }
 
 .article-categories {
@@ -517,26 +572,8 @@
   color: #fff;
 }
 
-.category-most-popular-bg h4 > a {
-  font-size: 2rem;
-  line-height: 2.2rem;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-}
-
 .category-most-popular-bg h4 > a:hover {
   text-decoration: underline;
-}
-
-.most-popular-author,
-.most-popular-author a {
-  text-decoration: none;
-  color: #888;
-}
-
-.most-popular-author a:hover {
-  color: #ccc;
 }
 
 .category-latest img {
@@ -569,19 +606,6 @@
   margin-bottom: 35px;
 }
 
-.more-popular-topics li {
-  border-bottom: 1px solid #eee;
-  padding: 15px 0;
-}
-
-.more-popular-topics li a {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  font-weight: 400;
-  color: #888;
-  text-decoration: none;
-}
-
 .more-popular-topics li a:hover {
   color: #555;
 }
@@ -600,31 +624,12 @@ footer {
   height: 160px;
 }
 
-.footer-top i {
-  background-color: rgb(63, 63, 63);
-  font-size: 1.8rem;
-  color: #fff;
-  padding: 10px 13px;
-  border-radius: 100%;
-}
-
 .footer-top i:not(:last-of-type) {
   margin-right: 1.8%;
 }
 
 .social-icons {
   margin-bottom: 30px;
-}
-
-.footer-links a {
-  color: rgb(209, 209, 209);
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-.footer-links a:not(:last-of-type) {
-  margin-right: 1.8%;
 }
 
 .footer-bottom {
@@ -634,11 +639,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer-bottom span {
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
 }
 
 .footer-bottom img {
@@ -677,8 +677,7 @@ footer {
   }
 
   .tnw-logo-cover {
-    background-color: #f42;
-    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    background: #f42 linear-gradient(to bottom right, #c09, #f42 85%);
     display: block;
     height: 48px;
     padding: 16px 20px;
