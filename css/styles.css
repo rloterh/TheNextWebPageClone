@@ -23,6 +23,18 @@
   margin-right: 15px;
 }
 
+.main-nav-right-content i {
+  font-size: 1.6rem;
+  color: rgb(189, 189, 189);
+}
+
+.cover ul li,
+.cover ul li i,
+.cover ul li time {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .top-nav li:not(:last-of-type) {
   margin-right: 15px;
 }
@@ -73,20 +85,15 @@
 }
 
 .tnw-logo-cover {
-  background-color: #f42;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
-  display: block;
+  background: linear-gradient(to bottom right, #c09, #f42 85%) #f42;
   height: 48px;
   padding: 16px 20px;
   width: 106px;
+  display: none;
 }
 
 .tnw-logo {
   width: 100%;
-}
-
-.tnw-logo-cover {
-  display: none;
 }
 
 .main-nav-right-content {
@@ -99,11 +106,6 @@
   align-items: center;
 }
 
-.main-nav-right-content i {
-  font-size: 1.6rem;
-  color: rgb(189, 189, 189);
-}
-
 .search-icon,
 .menu-bar {
   border-left: 1px solid lightgray;
@@ -112,10 +114,6 @@
 
 .menu-bar {
   display: none;
-}
-
-.main-nav-right-content .search-icon i {
-  transform: rotate(-270deg);
 }
 
 .main-nav-right-content img {
@@ -127,6 +125,10 @@
 .main-nav-right-content img,
 .main-nav-right-content p {
   margin-right: 20px;
+}
+
+.main-nav-right-content .search-icon i {
+  transform: rotate(-270deg);
 }
 
 .main-nav-right-content p,
@@ -189,12 +191,14 @@
 }
 
 .cover {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(248, 28, 76, 0.8),
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.8)
-  );
+  background-image:
+    linear-gradient
+    (
+      to right bottom,
+      rgba(248, 28, 76, 0.8),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
   color: white;
   display: flex;
   flex-direction: column;
@@ -217,13 +221,6 @@
   list-style: none;
 }
 
-.cover ul li,
-.cover ul li i,
-.cover ul li time {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 .cover ul li {
   display: inline-block;
 }
@@ -242,18 +239,18 @@
   background-size: cover;
 }
 
-.hero-right-img-1,
-.hero-right-img-2 {
-  display: flex;
-  align-items: flex-end;
-  padding: 20px;
-}
-
 .hero-right-img-1 a,
 .hero-right-img-2 a {
   font-size: 2.8rem;
   color: #fff;
   text-decoration: none;
+}
+
+.hero-right-img-1,
+.hero-right-img-2 {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
 }
 
 .hero-right-img-2 {
@@ -527,6 +524,7 @@
   color: #fff;
   text-decoration: none;
 }
+
 .category-most-popular-bg h4 > a:hover {
   text-decoration: underline;
 }
@@ -675,8 +673,9 @@ footer {
     width: 100%;
     margin-top: -50px;
     text-align: center;
-    padding: 15px 4px;
+    padding: 20px 0 40px;
   }
+
   .tnw-logo-cover {
     background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
@@ -791,6 +790,14 @@ footer {
   .footer-bottom {
     flex-direction: column;
   }
+
+  .article-categories {
+    display: block;
+  }
+
+  .category-latest-top {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 865px) {
@@ -821,6 +828,11 @@ footer {
 
   .section-heading {
     margin-bottom: 10px;
+  }
+
+  .article-categories {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
