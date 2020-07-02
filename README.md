@@ -5,8 +5,8 @@
 
 > This project is part of the Microverse curriculum to makes use of media queries in building responsive websites.
 
-![screenshot](Screenshot-1.png)
-![screenshot](Screenshot-2.png)
+![screenshot](images/screenshot-1.png)
+![screenshot](images/screenshot-2.png)
 
 ## Built With
 
