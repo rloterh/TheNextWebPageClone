@@ -36,12 +36,14 @@ Congratulations. If you're viewing this README.md file on a browser, via the int
 - Github: [@rloterh](https://github.com/rloterh)
 - Twitter: [@RLoterh](https://twitter.com/RLoterh)
 - Linkedin: [Robert Loterh](https://www.linkedin.com/in/robert-loterh-30b265135)
+- Email: rloterh@gmail.com
 
 👤 **Amita Roy**
 
 - Github: [@Amita-Roy](https://github.com/Amita-Roy)
 - Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
 - Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
+- Email: sardana.amita2@gmail.com
 
 ## 🤝 Contributing
 
