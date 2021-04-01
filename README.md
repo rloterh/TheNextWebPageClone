@@ -4,7 +4,7 @@
 
 
 ## Description
-The rubric of this project is to demonstrate the creation of responsive website using media queries. This project is a clone of [The Next Web](https://thenextweb.com/) with focus on responsiveness. The specification for this project is a part of the Odin Project.
+The rubric of this project is to demonstrate the creation of responsive website using media queries. This project is a clone of [The Next Web](https://thenextweb.com/) with focus on responsiveness. The specification for this project is a part of [The Odin Project](https://www.theodinproject.com/).
 
 
 ## Library Directory 📙
