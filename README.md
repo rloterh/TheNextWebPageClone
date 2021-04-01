@@ -26,13 +26,13 @@ The rubric of this project is to demonstrate the creation of responsive website 
 
 
 ## App Screenshot
-![img](https://user-images.githubusercontent.com/12745474/113287997-3e486f80-92e6-11eb-98fb-0e9de241e7a5.jpg)
+![img](https://user-images.githubusercontent.com/12745474/113297556-c0c23680-92c8-11eb-8781-e76d4344cff7.png)
 
 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
-- Execute <code>index.html</code> within the project root directory
+- Execute `index.html` within the project root directory
 
 
 ## Built With
@@ -46,20 +46,21 @@ The rubric of this project is to demonstrate the creation of responsive website 
 This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
  
 
-### Testing HTML Syntax via W3C Markup Validation Service
+### Validating HTML Syntax
 
 1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
 2. - Upload the file named `index.html` in the project directory
 3. - Click on the check button to validate
 4. - All test cases should pass, when no error message is shown 
 
-### Testing CSS with Stylelint
+### Validating CSS Syntax
 
-1. - Ensure node package manager is installed on your computer by going to [npmjs.com](https://www.npmjs.com/get-npm)
-2. - Go to the terminal, and navigate to project directory
-3. - Run the command `npm install`
-4. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
-5. - All test cases passes, when no error message is shown in the terminal
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm install`
+5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+6. - All test cases passes, when no error message is shown in the terminal
 
 
 ## Authors
@@ -92,9 +93,9 @@ Feel free to check the [issues page](https://github.com/rloterh/TheNextWebPageCl
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
--- [The Next Web](https://thenextweb.com/)
--- [The Odin Project](https://www.theodinproject.com/)
--- [Microverse](https://www.microverse.org/)
+- [The Next Web](https://thenextweb.com/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [Microverse](https://www.microverse.org/)
 
 
 ### License
