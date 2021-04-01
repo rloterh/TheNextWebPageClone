@@ -49,7 +49,7 @@ This project was tested using [W3C Validator](https://validator.w3.org/) and [St
 ### Validating HTML Syntax
 
 1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
-2. - Upload the file named `index.html` in the project directory
+2. - Upload the file named `index.html` from the project directory
 3. - Click on the check button to validate
 4. - All test cases should pass, when no error message is shown 
 
