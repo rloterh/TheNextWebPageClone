@@ -1,65 +1,102 @@
-# TheNextWebClone
-# Building with Responsive Design
->This project consists of building a mock-up of The Next Web website  https://thenextweb.com/
+# TheNextWebClone - Building with Responsive Design (Microverse HTML/ CSS Assignment)
+
+![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 
-> This project is part of the Microverse curriculum to makes use of media queries in building responsive websites.
+## Description
+The rubric of this project is to demonstrate the creation of responsive website using media queries. This project is a clone of [The Next Web](https://thenextweb.com/) with focus on responsiveness. The specification for this project is a part of the Odin Project.
 
-![screenshot](images/screenshot-1.png)
-![screenshot](images/screenshot-2.png)
+
+## Library Directory 📙
+
+| Contents                  |
+| ------------------------- |
+| [Live Demo](#live-demo) |
+| [App Screenshot](#app-screenshot) |
+| [Getting Started](#getting-started)   |
+| [Built With](#built-with)   |
+| [Testing](#testing)   |
+| [Authors](#authors)       |
+| [License](#license)       |
+
+
+
+## Live Demo
+[TheNextWebPageClone live demo](https://heuristic-snyder-5b9b58.netlify.app/).
+
+
+## App Screenshot
+![img](https://user-images.githubusercontent.com/12745474/113287997-3e486f80-92e6-11eb-98fb-0e9de241e7a5.jpg)
+
+
+## Getting Started
+
+- [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
+- Execute <code>index.html</code> within the project root directory
+
 
 ## Built With
 
 - HTML
 - CSS
-- Font Awesome
 
-## Live Demo
 
-[Live Demo Link](https://heuristic-snyder-5b9b58.netlify.app/)
+## Testing
 
-## Getting Started
+This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
+ 
 
-To get a local copy up and running follow these steps:
+### Testing HTML Syntax via W3C Markup Validation Service
 
-- Download this repository and open the zip file to a location of your choosing.
-- Open the index.html file in your browser of preference.
+1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
+2. - Upload the file named `index.html` in the project directory
+3. - Click on the check button to validate
+4. - All test cases should pass, when no error message is shown 
 
-### Prerequisites
+### Testing CSS with Stylelint
 
-Congratulations. If you're viewing this README.md file on a browser, via the internet, with a working computer, you are in possession of the pre-requisites to enjoy our work.
+1. - Ensure node package manager is installed on your computer by going to [npmjs.com](https://www.npmjs.com/get-npm)
+2. - Go to the terminal, and navigate to project directory
+3. - Run the command `npm install`
+4. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+5. - All test cases passes, when no error message is shown in the terminal
+
 
 ## Authors
 
-👤 **Robert Loterh**
+### 👨‍💻 Robert Loterh
 
-- Github: [@rloterh](https://github.com/rloterh)
-- Twitter: [@RLoterh](https://twitter.com/RLoterh)
-- Linkedin: [Robert Loterh](https://www.linkedin.com/in/robert-loterh-30b265135)
-- Email: rloterh@gmail.com
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/rloterh) <br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/robert-loterh/) <br>
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:rloterh@gmail.com) <br>
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/RLoterh) <br>
 
-👤 **Amita Roy**
 
-- Github: [@Amita-Roy](https://github.com/Amita-Roy)
-- Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
-- Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
-- Email: amita.roy@workmail.com
+ ### 👨‍💻 Amita Roy
+
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Amita-Roy) <br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/amita-roy/) <br>
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:amita.roy@workmail.com) <br>
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/AmitaRoy14)<br>
+
 
 ## 🤝 Contributing
 
-The most valuable contribution you can make is honest feedback!
+Contributions, issues and feature requests are welcome!
 
-Let us know what you think of our work by getting in touch via social media or by creating an issue here on GitHub.
+Feel free to check the [issues page](https://github.com/rloterh/TheNextWebPageClone/issues/new).
+
 
 ## Show your support
 
-Give a ⭐️ if you like this project! Follow us and be the first to know about our next project!
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+-- [The Next Web](https://thenextweb.com/)
+-- [The Odin Project](https://www.theodinproject.com/)
+-- [Microverse](https://www.microverse.org/)
 
-- Thanks to Microverse, The Odin Project, for providing the educational resources to learn about Design and UX.
-- Thanks to our Microverse Stand-Up Team for reviewing our code and providing constructive feedback.
 
-## 📝 License
+### License
 
-This project is [MIT](lic.url) licensed.
+![Cocoapods](https://img.shields.io/cocoapods/l/AFNetworking?color=red&style=for-the-badge)
