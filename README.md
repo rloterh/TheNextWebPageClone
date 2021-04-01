@@ -22,7 +22,7 @@ The rubric of this project is to demonstrate the creation of responsive website 
 
 
 ## Live Demo
-[TheNextWebPageClone live demo](https://heuristic-snyder-5b9b58.netlify.app/).
+[TheNextWebPageClone live demo](https://heuristic-snyder-5b9b58.netlify.app/)
 
 
 ## App Screenshot
@@ -32,7 +32,7 @@ The rubric of this project is to demonstrate the creation of responsive website 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
-- Execute `index.html` within the project root directory
+- Within the project root directory launch `index.html` in a web browser
 
 
 ## Built With
