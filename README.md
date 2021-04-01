@@ -13,8 +13,8 @@ The rubric of this project is to demonstrate the creation of responsive website 
 | ------------------------- |
 | [Live Demo](#live-demo) |
 | [App Screenshot](#app-screenshot) |
-| [Getting Started](#getting-started)   |
 | [Built With](#built-with)   |
+| [Getting Started](#getting-started)   |
 | [Testing](#testing)   |
 | [Authors](#authors)       |
 | [License](#license)       |
@@ -29,16 +29,16 @@ The rubric of this project is to demonstrate the creation of responsive website 
 ![img](https://user-images.githubusercontent.com/12745474/113297556-c0c23680-92c8-11eb-8781-e76d4344cff7.png)
 
 
-## Getting Started
-
-- [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
-- Within the project root directory launch `index.html` in a web browser
-
-
 ## Built With
 
 - HTML
 - CSS
+- 
+
+## Getting Started
+
+1. - [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
+2. - Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
