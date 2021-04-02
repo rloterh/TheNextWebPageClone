@@ -37,8 +37,10 @@ The rubric of this project is to demonstrate the creation of responsive website 
 
 ## Getting Started
 
-1. - [Clone](https://github.com/rloterh/TheNextWebPageClone.git) this project
-2. - Within the project root directory launch `index.html` in a web browser
+1. - Copy the git link `https://github.com/rloterh/TheNextWebPageClonegit` of this project
+2. - In your terminal run the command `git clone https://github.com/rloterh/TheNextWebPageClone.git`
+3. - Navigate to the cloned project directory
+4. - Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
