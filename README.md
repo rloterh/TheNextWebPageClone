@@ -1,4 +1,4 @@
-# TheNextWebClone - Building with Responsive Design (Microverse HTML/ CSS Module)
+# The Next Web Clone - Building with Responsive Design (Microverse HTML/ CSS Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
