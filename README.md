@@ -32,8 +32,7 @@ The rubric of this project is to demonstrate the creation of responsive website 
 ## Built With
 
 - HTML
-- CSS
-- 
+- CSS 
 
 ## Getting Started
 
